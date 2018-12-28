@@ -1,0 +1,97 @@
+body {
+    font-family: calibri, arial, sans-serif;
+    background-color: #F0F8FC;
+}
+
+div.menu-buttons {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    margin: 33px;
+}
+
+div.popup {
+    margin: 60px;
+    top: 0px;
+    position: fixed;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #EEE;
+}
+
+button.close-help {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.everything {
+    text-align: center;
+}
+
+.example-list {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 30px 0px 30px;
+    text-align: left;
+}
+
+.turing-row {
+    display: inline-block;
+}
+
+.tape {
+    background-color: #EEE;
+    min-height: 32px;
+    box-shadow: 0 -2px 0 0 black, 0 2px 0 0 black, 2px 0 2px 0 #EEE, -2px 0 2px 0 #EEE;
+}
+
+.tape-cell {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-left: 1px dashed black;
+    line-height: 34px;
+}
+
+.tape-cell.empty {
+    border-color: transparent;
+}
+
+.tape-cell.selected {
+    background-color: #FF6;
+}
+
+button.square {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+
+
+.table {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.grid-cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.grid-cell.active {
+    background-color: #FF6;
+}
+
+.title {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
