@@ -6758,11 +6758,8 @@ var author$project$Main$setState = F4(
 			}) : model;
 	});
 var author$project$Main$nextLevel = function (model) {
-	return _Utils_update(
-		model,
-		{
-			level: author$project$Game$Level$getLevel(model.level.levelNumber + 1)
-		});
+	return author$project$Main$loadLevel(
+		author$project$Game$Level$getLevel(model.level.levelNumber + 1));
 };
 var author$project$Turing$Turing$getState = function (_n0) {
 	var config = _n0.a;

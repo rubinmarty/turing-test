@@ -204,7 +204,7 @@ stop model =
 
 nextLevel : Model -> Model
 nextLevel model =
-    { model | level = Level.getLevel (model.level.levelNumber + 1) }
+    loadLevel <| Level.getLevel (model.level.levelNumber + 1)
 
 
 tick : RunningData -> Model -> Model
